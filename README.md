@@ -1,11 +1,11 @@
 # Diffie-Helman
 ## What is Diffie-Helman
-Diffie–Hellman key exchange is a method of securely exchanging cryptographic keys over a public channel and was one of the first public-key protocols as conceived by Ralph Merkle and named after Whitfield Diffie and Martin Hellman. DH is one of the earliest practical examples of public key exchange implemented within the field of cryptography.<br/>
+>Diffie–Hellman key exchange is a method of securely exchanging cryptographic keys over a public channel and was one of the first public-key protocols as conceived by Ralph Merkle and named after Whitfield Diffie and Martin Hellman. DH is one of the earliest practical examples of public key exchange implemented within the field of cryptography.<br/>
 -_from [wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)_
 
 ## What is done in this implementation
-In the following implementation of the program, the client and server communicate using socket programming, but before the message is sent it is encrypted using the shift cipher technique which has been implemented in the `ShiftCipher.py` file, and once the message is received on either side it is decrypted again using the function in `ShiftCipher.py`.<br/><br/>
-The file `Diffie-Helman.py` is just the plain implementation of Diffie-Helamn's Algorithm, in the program it takes the necessary inputs, computes and gives the results which is `Ka` and `Kb` to be verified by the user.
+>In the following implementation of the program, the client and server communicate using socket programming, but before the message is sent it is encrypted using the shift cipher technique which has been implemented in the `ShiftCipher.py` file, and once the message is received on either side it is decrypted again using the function in `ShiftCipher.py`.<br/><br/>
+>The file `Diffie-Helman.py` is just the plain implementation of Diffie-Helamn's Algorithm, in the program it takes the necessary inputs, computes and gives the results which is `Ka` and `Kb` to be verified by the user.
 
 ## To run the program
 1. Download/clone the repo in your system.
