@@ -13,4 +13,8 @@
 3. Open Command Prompt [Windows] and Terminal [Ubuntu] and run the `DH-Server.py` in the respective platform.
 4. Now run the `DH-Client.py` once you have provided all the necessary inputs to the **Server** program and provide the required inputs for the **Client** program.
 5. The program will display the `Ka` and `Kb` respectively, and then you can proceed with the further chatting.
-6. If you want to close the connection or stop the communication you can press ***Ctrl+c*** or just type **'bye'** without quotes on the client side.
+6. If you want to close the connection or stop the communication you can press ***Ctrl+c*** or just type **'bye'** without quotes on the client side.<br/>
+### NOTE: <br/>
+Before running the code make sure you have ***sympy and numpy*** in your python enviroment. If not install using<br/>
+`python -m pip install sympy` <br/>
+`python -m pip install numpy`
